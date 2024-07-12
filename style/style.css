@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 .text {
-  width: 500px;
   position: absolute;
-  top: 20%;
-  left: 40%;
+  width: 50vw;
+  top: 25%;
+  left: 35%;
 }
 h1 {
   text-align: center;
   color: red !important;
-  text-wrap: wrap;
 }
 p {
+  text-wrap: wrap;
   color: #2af020;
   text-align: justify;
 }
