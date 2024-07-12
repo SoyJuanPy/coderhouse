@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .text {
-  width: 50%;
+  width: 500px;
   position: absolute;
   top: 20%;
   left: 40%;
@@ -12,6 +12,7 @@
 h1 {
   text-align: center;
   color: red !important;
+  text-wrap: wrap;
 }
 p {
   color: #2af020;
