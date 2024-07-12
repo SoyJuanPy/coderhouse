@@ -3,16 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+.back-img > h1 {
+  color: red;
+}
 nav {
   font-family: digital;
-  background: transparent;
+  background: #000;
 }
 .navbar-brand {
   color: #2af020 !important;
 }
-
+.navbar-toggler {
+  filter: invert(100%);
+}
 .nav-link {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 .active {
   color: #2af020 !important;
