@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .text {
   position: absolute;
   width: 50vw;
@@ -33,11 +34,4 @@ nav {
 }
 .active {
   color: #2af020 !important;
-}
-
-@media screen and (max-width: 300px) {
-  .image {
-    height: 100vh;
-    width: 50vw;
-  }
 }
