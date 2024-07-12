@@ -3,9 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-.back-img > h1 {
-  color: red;
+.text {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+h1 {
+  text-align: center;
+  color: red !important;
+}
+p {
+  color: #2af020;
+  text-align: justify;
 }
 nav {
   font-family: digital;
