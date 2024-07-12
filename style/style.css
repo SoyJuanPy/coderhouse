@@ -2,5 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+nav {
   font-family: digital;
+  background: transparent;
+}
+.navbar-brand {
+  color: #2af020 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+.active {
+  color: #2af020 !important;
 }
