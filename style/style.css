@@ -6,18 +6,22 @@
 
 .text {
   position: absolute;
-  width: 50vw;
-  top: 25%;
+  top: 20%;
   left: 35%;
 }
 h1 {
   text-align: center;
-  color: red !important;
+  color: #ffffff !important;
+  font-family: digital;
+  text-shadow: 1px 1px 1px #6c6c6c;
+  font-size: 70px !important;
 }
 p {
-  text-wrap: wrap;
-  color: #2af020;
-  text-align: justify;
+  color: #000 !important;
+  font-family: motserrat;
+  text-shadow: 1px 1px 0 #0dff00;
+  font-size: 30px;
+  text-align: center;
 }
 nav {
   font-family: digital;
@@ -34,4 +38,27 @@ nav {
 }
 .active {
   color: #2af020 !important;
+}
+@media screen and (max-width: 578px) {
+  .text {
+    width: 50vw;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+  }
+  h1 {
+    text-align: center;
+    color: #ffffff !important;
+    font-family: digital;
+    text-shadow: 1px 1px 1px #6c6c6c;
+    font-size: 40px !important;
+  }
+  p {
+    color: #000 !important;
+    font-family: motserrat;
+    text-shadow: 1px 1px 0 #0dff00;
+    font-size: 18px;
+    text-align: justify;
+    text-wrap: wrap;
+  }
 }
